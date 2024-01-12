@@ -1,0 +1,40 @@
+h1{ 
+    color: brown;
+    background: #ebe4e4;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color:brown;
+    background:whitesmoke   ;
+}
+
+p {
+    border-style: groove;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 16rem;
+}
+.orderedlist{
+    border-style:solid;
+    background-color: darkgrey;
+    color:white;
+    padding: 2rem;
+    padding-left:35rem;
+    
+}
+
+a{
+    font-family: monospace;
+    font-size: large;
+    border-style: dotted;
+    margin-left: 40rem;
+    
+}
+
+h3{
+    text-align: center;
+    color: bisque;
+    background-color: black;
+}
