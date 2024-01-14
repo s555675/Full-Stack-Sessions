@@ -1,0 +1,50 @@
+h2{
+    background:lightblue;
+    color: black;
+    text-align: center;
+    margin: 1rem;
+    
+}
+
+
+h1{
+    background:lightblue;
+    color: black;
+    text-align: center;
+    margin: 1rem;
+    padding: 1.2rem;
+}
+
+
+.column{
+    float: left;
+    width:20%;
+    padding: 2px;
+    height: 400px;
+    margin-left: 1rem;
+}
+
+.call{
+
+    float: left;
+    width:40%;
+    padding: 2px;
+    height: 400px;
+    width: 788px;
+    margin-left: 0.5rem;
+}
+
+.phone{
+    width:20%;
+    padding: 2px;
+    height: 400px;
+    float: right;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
